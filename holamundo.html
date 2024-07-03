@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Hola Mundo</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <h1>Curso JS</h1>
+        <p>nuestro primero script en js</p>
+
+        <script type="text/javascript">
+
+            alert("Hola mundo")
+            alert("Hola mundo2")
+            document.write("esto se va a escribir en la página")
+            console.log("Hola") //esto sale en la consola
+
+            /*
+            comentario
+            a
+            a
+            a
+            */
+
+           // comentario de una línea
+        
+           
+           //VARIABLES
+            var pais = "Espana"
+            var continente = "Europa"
+            var junto = pais + ' ' + continente
+            console.log(junto)
+           
+            let prueba = "Hola"
+
+            const constante1 = "Esto es una variable constante"
+
+
+            // el typeof te dice el tipo de dato de alguna variable
+            console.log(typeof pais)
+
+
+            //condicional if
+            var edad = 1
+            var edad2 = 2
+            if(edad > edad2){
+                console.log("La edad 1 es mayor que la dos")
+            }else{
+                console.log("La edad 2 es mayor que la uno")
+            }
+            // < > <= >= == != && || |
+
+
+            //SWITCH
+            var edad3 = 3
+            var imprime = ""
+            switch(edad3){
+                case 1:
+                    imprime = "No"
+                break;
+
+                case 3:
+                    imprime = "Sí"
+                break;
+
+                default:
+                    imprime = "No sé"
+            }
+
+
+            // FOR BUCLE
+            for(var i = 0; i < 100; i++){
+                console.log("Vamos por el número: "+i)
+            }
+            
+
+            // WHILE BUCLE
+            var year = 100
+            while(year > 10){
+                console.log(year)
+                year--
+            }
+
+
+            // alertas alert()
+            var confirmo = confirm("¿Quieres continuar?")
+            //ingreso de datos
+            prompt("Qué edad tienes?", 18) // si no pones el 18 no te pone nada en la respuesta, el 18 es para un valor predeterminado
+
+
+            
+
+        </script>
+    </body>
+</html>
